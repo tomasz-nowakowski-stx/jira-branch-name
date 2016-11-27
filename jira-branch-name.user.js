@@ -767,7 +767,7 @@ new Clipboard('#get-branch-name',{
         var key = document.querySelector('#key-val').textContent.toUpperCase().replace('-','');
         var summary = summaryEl.textContent.toLowerCase();
 
-        return (key+'-'+summary).replace(/\s/g, '_').replace(/'|"|\(|\)/g, '');
+        return (key+'-'+summary).replace(/\s/g, '_').replace(/'|"|\(|\)|\[|\]/g, '');
     }
 });
 
