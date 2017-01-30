@@ -7,6 +7,7 @@
 // @match        *://smartbuy.stxnext.pl/browse/*
 // @match        *://smartbuyduo.stxnext.pl/browse/*
 // @match        *://smartbuy.atlassian.net/browse/*
+// @match        *://softwarediagnostics.atlassian.net/browse/*
 // @grant        none
 // ==/UserScript==
 
