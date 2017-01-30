@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jira - get branch name
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.2
 // @description  try to take over the world!
 // @author       You
 // @match        *://smartbuy.stxnext.pl/browse/*
@@ -9,6 +9,8 @@
 // @match        *://smartbuy.atlassian.net/browse/*
 // @match        *://softwarediagnostics.atlassian.net/browse/*
 // @grant        none
+// @downloadURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
+// @updateURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
 // ==/UserScript==
 
 (function() {
