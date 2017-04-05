@@ -7,6 +7,7 @@
 // @match        *://smartbuy.stxnext.pl/browse/*
 // @match        *://smartbuyduo.stxnext.pl/browse/*
 // @match        *://smartbuy.atlassian.net/browse/*
+// @match        *://internals.stxnext.pl/browse/*
 // @match        *://softwarediagnostics.atlassian.net/browse/*
 // @grant        none
 // @downloadURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
