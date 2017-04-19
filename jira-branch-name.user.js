@@ -4,8 +4,6 @@
 // @version      0.1.2
 // @description  try to take over the world!
 // @author       You
-// @match        *://smartbuy.stxnext.pl/browse/*
-// @match        *://smartbuyduo.stxnext.pl/browse/*
 // @match        *://smartbuy.atlassian.net/browse/*
 // @match        *://internals.stxnext.pl/browse/*
 // @match        *://softwarediagnostics.atlassian.net/browse/*
