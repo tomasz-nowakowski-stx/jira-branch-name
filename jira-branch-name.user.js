@@ -4,7 +4,7 @@
 // @version      0.1.3
 // @description  try to take over the world!
 // @author       You
-// @match        *atlassian.net/browse/*
+// @match        *://smartbuy.atlassian.net/browse/*
 // @match        *stxnext.pl/browse/*
 // @grant        none
 // @downloadURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
