@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Jira - get branch name
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  try to take over the world!
 // @author       You
-// @match        *://smartbuy.atlassian.net/browse/*
-// @match        *://internals.stxnext.pl/browse/*
-// @match        *://softwarediagnostics.atlassian.net/browse/*
+// @match        *atlassian.net/browse/*
+// @match        *stxnext.pl/browse/*
 // @grant        none
 // @downloadURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
 // @updateURL https://github.com/tomasz-nowakowski-stx/jira-branch-name/raw/master/jira-branch-name.user.js
@@ -766,7 +765,7 @@ summaryEl.insertAdjacentHTML('afterend', button);
 
 new Clipboard('#get-branch-name',{
     text: function(trigger) {
-        var key = document.querySelector('#key-val').textContent.toUpperCase().replace('-','');
+        var key = document.querySelector('#key-val').textContent.toUpperCase();
         var summary = summaryEl.textContent.toLowerCase();
 
         return (key+'-'+summary).replace(/\s/g, '_').replace(/'|"|\(|\)|\[|\]/g, '');
